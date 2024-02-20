@@ -1,0 +1,18 @@
+name: rock.simulation
+
+imports:
+    - github: rock-simulation/simulation_package_set
+
+version_control:
+    #interactive true means no multi-threaded pulls from this git repo
+    # - simulation/mars2/.*:
+    #     github: mars-robot-simulation/.*
+    #     interactive: true
+
+    - simulation/mars2/mars_utils:
+        github: mars-robot-simulation/mars_utils
+    - simulation/mars2/mars_interfaces:
+        github: mars-robot-simulation/mars_interfaces
+    - simulation/mars2/mars_core:
+        github: mars-robot-simulation/mars_core
+

@@ -1,0 +1,3 @@
+cmake_package("simulation/mars2/mars_utils")
+cmake_package("simulation/mars2/mars_interfaces")
+cmake_package("simulation/mars2/mars_core")
