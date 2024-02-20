@@ -17,4 +17,6 @@ version_control:
         github: mars-robot-simulation/mars_core
     - simulation/data_broker:
         github: mars-robot-simulation/data_broker
+    - simulation/cfg_manager:
+        github: mars-robot-simulation/cfg_manager
 

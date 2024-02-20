@@ -1,4 +1,5 @@
 cmake_package("simulation/utils")
 cmake_package("simulation/data_broker")
+cmake_package("simulation/cfg_manager")
 cmake_package("simulation/mars2/mars_interfaces")
 cmake_package("simulation/mars2/mars_core")
