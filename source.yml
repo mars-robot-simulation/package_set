@@ -1,7 +1,7 @@
-name: rock.simulation
+name: mars-robot-simulation
 
 imports:
-    - github: rock-simulation/simulation_package_set
+    - github: rock-simulation/simulation-package_set
 
 version_control:
     #interactive true means no multi-threaded pulls from this git repo
