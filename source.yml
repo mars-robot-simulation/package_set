@@ -9,10 +9,12 @@ version_control:
     #     github: mars-robot-simulation/.*
     #     interactive: true
 
-    - simulation/mars2/mars_utils:
+    - simulation/utils:
         github: mars-robot-simulation/mars_utils
     - simulation/mars2/mars_interfaces:
         github: mars-robot-simulation/mars_interfaces
     - simulation/mars2/mars_core:
         github: mars-robot-simulation/mars_core
+    - simulation/data_broker:
+        github: mars-robot-simulation/data_broker
 
