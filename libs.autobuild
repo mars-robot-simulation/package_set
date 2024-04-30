@@ -5,6 +5,9 @@ cmake_package("simulation/mars2/mars_interfaces")
 cmake_package("simulation/mars2/mars_core")
 cmake_package("simulation/mars2/envire_mars_graphics")
 cmake_package("simulation/mars2/mars_graphics")
+cmake_package("simulation/mars2/envire_mars_motors")
+cmake_package("simulation/mars2/envire_mars_ode_physics")
+cmake_package("simulation/mars2/envire_mars_ode_collision")
 
 def graphics_collection_package(srcDir,type = :cmake_package)
     send(type,srcDir) do |pkg|
