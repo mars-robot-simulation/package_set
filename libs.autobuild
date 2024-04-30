@@ -3,6 +3,8 @@ cmake_package("simulation/data_broker")
 cmake_package("simulation/cfg_manager")
 cmake_package("simulation/mars2/mars_interfaces")
 cmake_package("simulation/mars2/mars_core")
+cmake_package("simulation/mars2/envire_mars_graphics")
+cmake_package("simulation/mars2/mars_graphics")
 
 def graphics_collection_package(srcDir,type = :cmake_package)
     send(type,srcDir) do |pkg|
