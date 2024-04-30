@@ -20,3 +20,7 @@ version_control:
     - simulation/cfg_manager:
         github: mars-robot-simulation/cfg_manager
 
+    - simulation/graphics_collection.*:
+        dfkigit: mars/mars2/graphics_collection
+        interactive: true    # forces single checkout even if autoprojs's parallel checkout is used
+        branch: master

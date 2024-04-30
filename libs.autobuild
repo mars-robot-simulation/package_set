@@ -3,3 +3,20 @@ cmake_package("simulation/data_broker")
 cmake_package("simulation/cfg_manager")
 cmake_package("simulation/mars2/mars_interfaces")
 cmake_package("simulation/mars2/mars_core")
+
+def graphics_collection_package(srcDir,type = :cmake_package)
+    send(type,srcDir) do |pkg|
+        pkg.importdir = "simulation/graphics_collection/"
+        yield pkg if block_given?
+    end
+end
+
+graphics_collection_package "simulation/graphics_collection/osg_animations"
+graphics_collection_package "simulation/graphics_collection/osg_frames"
+graphics_collection_package "simulation/graphics_collection/osg_lines"
+graphics_collection_package "simulation/graphics_collection/osg_material_manager"
+graphics_collection_package "simulation/graphics_collection/osg_plot"
+graphics_collection_package "simulation/graphics_collection/osg_points"
+graphics_collection_package "simulation/graphics_collection/osg_terrain"
+graphics_collection_package "simulation/graphics_collection/osg_text"
+graphics_collection_package "simulation/graphics_collection/osg_text_factory"
