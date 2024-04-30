@@ -20,3 +20,20 @@ graphics_collection_package "simulation/graphics_collection/osg_points"
 graphics_collection_package "simulation/graphics_collection/osg_terrain"
 graphics_collection_package "simulation/graphics_collection/osg_text"
 graphics_collection_package "simulation/graphics_collection/osg_text_factory"
+
+def gui_collection_package(srcDir,type = :cmake_package)
+    send(type,srcDir) do |pkg|
+        pkg.importdir = "simulation/gui_collection/"
+        yield pkg if block_given?
+    end
+end
+
+gui_collection_package "simulation/gui_collection/cfg_manager_gui"
+gui_collection_package "simulation/gui_collection/config_map_gui"
+gui_collection_package "simulation/gui_collection/data_broker_gui"
+gui_collection_package "simulation/gui_collection/data_broker_plotter"
+gui_collection_package "simulation/gui_collection/data_broker_plotter2"
+gui_collection_package "simulation/gui_collection/gui_app"
+gui_collection_package "simulation/gui_collection/lib_manager_gui"
+gui_collection_package "simulation/gui_collection/log_console"
+gui_collection_package "simulation/gui_collection/main_gui"

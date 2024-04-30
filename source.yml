@@ -24,3 +24,8 @@ version_control:
         dfkigit: mars/mars2/graphics_collection
         interactive: true    # forces single checkout even if autoprojs's parallel checkout is used
         branch: master
+
+    - simulation/gui_collection.*:
+        dfkigit: mars/mars2/gui_collection
+        interactive: true    # forces single checkout even if autoprojs's parallel checkout is used
+        branch: master
