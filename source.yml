@@ -12,19 +12,46 @@ version_control:
         github: mars-robot-simulation/mars_utils
     - simulation/mars2/mars_interfaces:
         github: mars-robot-simulation/mars_interfaces
+        branch: main
     - simulation/mars2/mars_core:
         github: mars-robot-simulation/mars_core
+        branch: main
+    - simulation/mars2/mars_gui:
+        github: mars-robot-simulation/mars_gui
+        branch: main
+    - simulation/mars2/mars_app:
+        github: mars-robot-simulation/mars_app
+        branch: main
+    - simulation/mars2/envire_mars_sensors:
+        github: mars-robot-simulation/envire_mars_sensors
+        branch: main
+    - simulation/mars2/envire_mars_ode_physics:
+        github: mars-robot-simulation/envire_mars_ode_physics
+        branch: main
+    - simulation/mars2/envire_mars_ode_collision:
+        github: mars-robot-simulation/envire_mars_ode_collision
+        branch: main
+    - simulation/mars2/envire_mars_motors:
+        github: mars-robot-simulation/envire_mars_motors
+        branch: main
+    - simulation/mars2/mars_graphics:
+        github: mars-robot-simulation/mars_graphics
+        branch: main
+    - simulation/mars2/envire_mars_graphics:
+        github: mars-robot-simulation/envire_mars_graphics
+        branch: main
+
+
     - simulation/data_broker:
         github: mars-robot-simulation/data_broker
     - simulation/cfg_manager:
         github: mars-robot-simulation/cfg_manager
 
     - simulation/graphics_collection.*:
-        dfkigit: mars/mars2/graphics_collection
+        github: mars-robot-simulation/graphics_collection
         interactive: true    # forces single checkout even if autoprojs's parallel checkout is used
-        branch: master
 
     - simulation/gui_collection.*:
-        dfkigit: mars/mars2/gui_collection
+        github: mars-robot-simulation/gui_collection
         interactive: true    # forces single checkout even if autoprojs's parallel checkout is used
-        branch: master
+
