@@ -5,42 +5,10 @@ imports:
 
 version_control:
     - simulation/mars2/.*:
-        dfkigit: mars/mars2/$PACKAGE_BASENAME.git
-        branch: master
+        github: mars-robot-simulation/$PACKAGE_BASENAME.git
 
     - simulation/utils:
         github: mars-robot-simulation/mars_utils
-    - simulation/mars2/mars_interfaces:
-        github: mars-robot-simulation/mars_interfaces
-        branch: main
-    - simulation/mars2/mars_core:
-        github: mars-robot-simulation/mars_core
-        branch: main
-    - simulation/mars2/mars_gui:
-        github: mars-robot-simulation/mars_gui
-        branch: main
-    - simulation/mars2/mars_app:
-        github: mars-robot-simulation/mars_app
-        branch: main
-    - simulation/mars2/envire_mars_sensors:
-        github: mars-robot-simulation/envire_mars_sensors
-        branch: main
-    - simulation/mars2/envire_mars_ode_physics:
-        github: mars-robot-simulation/envire_mars_ode_physics
-        branch: main
-    - simulation/mars2/envire_mars_ode_collision:
-        github: mars-robot-simulation/envire_mars_ode_collision
-        branch: main
-    - simulation/mars2/envire_mars_motors:
-        github: mars-robot-simulation/envire_mars_motors
-        branch: main
-    - simulation/mars2/mars_graphics:
-        github: mars-robot-simulation/mars_graphics
-        branch: main
-    - simulation/mars2/envire_mars_graphics:
-        github: mars-robot-simulation/envire_mars_graphics
-        branch: main
-
 
     - simulation/data_broker:
         github: mars-robot-simulation/data_broker

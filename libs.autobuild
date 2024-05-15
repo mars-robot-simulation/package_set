@@ -1,6 +1,3 @@
-cmake_package("simulation/utils")
-cmake_package("simulation/data_broker")
-cmake_package("simulation/cfg_manager")
 cmake_package("simulation/mars2/mars_interfaces")
 cmake_package("simulation/mars2/mars_core")
 cmake_package("simulation/mars2/envire_mars_graphics")
@@ -50,3 +47,10 @@ gui_collection_package "simulation/gui_collection/gui_app"
 gui_collection_package "simulation/gui_collection/lib_manager_gui"
 gui_collection_package "simulation/gui_collection/log_console"
 gui_collection_package "simulation/gui_collection/main_gui"
+
+# TODO: THESE PACKAGES SHOULD BE A PART OF MORE GENERIC PACKAGE SET
+# SINCE THEY DOES NOT HAVE RELATION TO MARS OR TO SIMULATION PACKAGE SET
+# SO MOVE THEM TO CORRESPONDING GITHUB GROUP
+cmake_package("simulation/utils")
+cmake_package("simulation/data_broker")
+cmake_package("simulation/cfg_manager")
