@@ -54,3 +54,7 @@ gui_collection_package "simulation/gui_collection/main_gui"
 cmake_package("simulation/utils")
 cmake_package("simulation/data_broker")
 cmake_package("simulation/cfg_manager")
+
+import_package("bundles/mars")
+
+import_package 'models/environments/mars'

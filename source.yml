@@ -24,3 +24,8 @@ version_control:
         github: mars-robot-simulation/gui_collection
         interactive: true    # forces single checkout even if autoprojs's parallel checkout is used
 
+    - bundles/mars:
+        github: mars-robot-simulation/bundle-mars
+
+    - models/environments/mars:
+        github: mars-robot-simulation/environment-mars
