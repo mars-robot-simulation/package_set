@@ -2,6 +2,7 @@ cmake_package("simulation/mars2/mars_interfaces")
 cmake_package("simulation/mars2/mars_core")
 cmake_package("simulation/mars2/envire_mars_graphics")
 cmake_package("simulation/mars2/mars_graphics")
+cmake_package 'simulation/mars2/envire_entity_view'
 cmake_package("simulation/mars2/envire_mars_motors")
 cmake_package("simulation/mars2/envire_mars_ode_physics")
 cmake_package("simulation/mars2/envire_mars_ode_collision")
