@@ -3,6 +3,7 @@ name: mars-robot-simulation
 imports:
     - github: rock-simulation/simulation-package_set
     - github: envire/envire-package_set
+    - github: ARC-OPT/package_set
 
 version_control:
     - simulation/mars2/.*:
@@ -29,3 +30,6 @@ version_control:
 
     - models/environments/mars:
         github: mars-robot-simulation/environment-mars
+
+    - simulation/mars2/plugins/arm_controller_plugin:
+        github: mars-robot-simulation/arm_controller_plugin
