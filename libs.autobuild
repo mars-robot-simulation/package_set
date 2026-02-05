@@ -51,6 +51,7 @@ gui_collection_package "simulation/gui_collection/gui_app"
 gui_collection_package "simulation/gui_collection/lib_manager_gui"
 gui_collection_package "simulation/gui_collection/log_console"
 gui_collection_package "simulation/gui_collection/main_gui"
+gui_collection_package "simulation/gui_collection/CameraGui"
 
 # TODO: THESE PACKAGES SHOULD BE A PART OF MORE GENERIC PACKAGE SET
 # SINCE THEY DOES NOT HAVE RELATION TO MARS OR TO SIMULATION PACKAGE SET
