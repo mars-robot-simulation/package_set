@@ -4,6 +4,6 @@
   <license></license>
   <url></url>
   <depend package="external/VulkanSceneGraph" />
-  <depend package="assimp" />
+  <depend package="external/vsgXchange" />
 </package>
 
