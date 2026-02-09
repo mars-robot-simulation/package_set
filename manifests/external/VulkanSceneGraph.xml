@@ -1,0 +1,10 @@
+<package>
+  <description brief=""/>
+  <author></author>
+  <license></license>
+  <url></url>
+  <depend package="vulkan" />
+  <depend package="glslang" />
+  <depend package="glslang-tools" />
+</package>
+

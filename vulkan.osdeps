@@ -1,0 +1,16 @@
+assimp:
+    debian, ubuntu: [libassimp-dev]
+    darwin: assimp
+
+glslang:
+    debian, ubuntu: [glslang-dev]
+    darwin: glslang
+
+glslang-tools:
+    debian, ubuntu: [glslang-tools]
+    darwin: glslang
+
+vulkan:
+    debian, ubuntu: [libvulkan-dev]
+
+

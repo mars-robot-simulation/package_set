@@ -1,0 +1,9 @@
+<package>
+  <description brief=""/>
+  <author></author>
+  <license></license>
+  <url></url>
+  <depend package="VulkanSceneGraph" />
+  <depend package="assimp" />
+</package>
+

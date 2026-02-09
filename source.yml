@@ -33,3 +33,12 @@ version_control:
 
     - simulation/mars2/plugins/arm_controller_plugin:
         github: mars-robot-simulation/arm_controller_plugin
+
+    - external/VulkanSceneGraph:
+        github: vsg-dev/VulkanSceneGraph
+
+    - external/vsgXchange:
+        github: vsg-dev/vsgXchange
+
+    - external/vsgQt:
+        github: vsg-dev/vsgQt

@@ -60,6 +60,10 @@ cmake_package("simulation/utils")
 cmake_package("simulation/data_broker")
 cmake_package("simulation/cfg_manager")
 
+cmake_package("external/VulkanSceneGraph")
+cmake_package("external/vsgXchange")
+cmake_package("external/vsgQt")
+
 import_package("bundles/mars")
 
 import_package 'models/environments/mars'
