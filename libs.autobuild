@@ -34,6 +34,9 @@ graphics_collection_package "simulation/graphics_collection/osg_points"
 graphics_collection_package "simulation/graphics_collection/osg_terrain"
 graphics_collection_package "simulation/graphics_collection/osg_text"
 graphics_collection_package "simulation/graphics_collection/osg_text_factory"
+graphics_collection_package "simulation/graphics_collection/vsg_frames"
+graphics_collection_package "simulation/graphics_collection/vsg_lines"
+graphics_collection_package "simulation/graphics_collection/vsg_points"
 
 def gui_collection_package(srcDir,type = :cmake_package)
     send(type,srcDir) do |pkg|
